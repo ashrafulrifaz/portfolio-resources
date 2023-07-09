@@ -206,3 +206,21 @@ main{
   font-weight: 400;
   line-height: 24px;
 }
+
+
+.resume-items{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.resume-item{
+  padding-right: 50px;
+}
+
+.resume-item h2{
+  font-size: 30px;
+  color: #474747;
+  font-weight: 700;
+  line-height: normal;
+}

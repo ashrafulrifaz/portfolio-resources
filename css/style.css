@@ -9,11 +9,14 @@ body{
   font-family: Open Sans;
 }
 
-.hero{
-  min-height: 90vh;
-  position: relative;
-  padding-top: 30px;
+header{
+  padding-top: 20px;
   background: #fff8f3;
+  background-image: url(../img/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 45%;
+  position: relative;
 }
 
 .hero .hero-1{
@@ -31,9 +34,9 @@ body{
 
 nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 200px;
 }
 
 nav ul li{
@@ -63,6 +66,13 @@ nav button{
   color: #474747;
 }
 
+.banner{
+  padding: 30px 40px 0px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .banner h2{
   font-size: 70px;
   font-weight: 700;
@@ -74,6 +84,7 @@ nav button{
   font-weight: 400;
   color: #757575;
   line-height: 25px;
+  margin: 15px 0;
 }
 
 .banner button:first-child{
@@ -92,4 +103,23 @@ nav button{
   border-radius: 5px;
   padding: 14px;
   font-weight: 600;
+}
+
+.banner-img{
+  width: 38%;
+}
+
+.ban-img{
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  height: 90%;
+}
+
+/* About Section */
+
+main{
+  padding: 100px 0;
+  margin: 0 200px;
+  
 }
